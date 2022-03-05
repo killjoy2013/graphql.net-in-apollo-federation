@@ -33,6 +33,10 @@ import { AppService } from './app.service';
               name: 'food',
               url: 'http://localhost:3002/graphql',
             },
+            // {
+            //   name: 'starwars',
+            //   url: 'http://localhost:3003/graphql',
+            // },
           ],
         }),
       },
