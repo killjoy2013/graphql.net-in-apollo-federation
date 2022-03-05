@@ -1,5 +1,5 @@
 {
-  "name": "country-subgraph",
+  "name": "federation-gateway",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -21,6 +21,8 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@apollo/federation": "^0.35.1",
+    "@apollo/gateway": "^0.48.1",
     "@apollo/subgraph": "^0.3.1",
     "@nestjs/apollo": "^10.0.6",
     "@nestjs/common": "^8.0.0",
